@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Dancing+Script:wght@400..700&display=swap");
+    
+*{
+font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #ffbe0b;
+    --secondary-color: #fb5607;
+    --accent1-color: #3a86ff;
+    --accent2-color: #8338ec;
+
+    --heading-font:  dancing script;
+    --paragraph-font: ;
+
+    --nav-background-color: #3a86ff;
+    --nav-link-color: #8338ec;
+    --nav-hover-link-color: #fb5607;
+    --nav-hover-background-color: #ffbe0b;
+
+}
+
+
+.typography h2 {
+    font-family: var(--paragraph-font);
+    
+}
