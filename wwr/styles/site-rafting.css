@@ -39,7 +39,7 @@ body, h1, p {
     position: relative;
     width: 100%;
     height: 500px; /* Adjust height as needed */
-    overflow: hidden;
+    overflow: center;
 }
 
 .hero img {
@@ -53,7 +53,7 @@ body, h1, p {
 }
 
 .hero h1 {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -67,7 +67,7 @@ body, h1, p {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background-image: url("images/wwr/happy-client.jpg"); /* Set the background image */
+    background-image: url("images/jackalope-west-02HBQ2w_yak-unsplash.jpg"); /* Set the background image */
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -76,9 +76,14 @@ body, h1, p {
 }
 
 .article-background p {
-    font-size: 1.2empx;
+    font-size: 1.2px;
     line-height: 1.5;
     font-weight: bold;
 }
+
+
+
+
+
 
 
