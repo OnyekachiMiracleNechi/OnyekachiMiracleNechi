@@ -63,21 +63,37 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
+    padding: 10px;
 }
 
 p {
     color: var(--text-color);
+    padding: 10px;
+}
+
+section h2 {
+    padding-left: 50%;   
+}
+
+section p{
+    padding-left: 20%;
 }
 
 
 footer {
     background-color: var(--secondary-color);
-    padding: 20px;
+    padding: 100px;
     text-align: center;
+    background-size: cover;
+}
+
+footer img{
+    margin-left: auto;
 }
 
 footer p {
-    color: #fff; 
+    color: purple;
+    position: center; 
 }
 
 footer a {
@@ -88,7 +104,7 @@ footer a {
 .hero {
     position: relative;
     width: 100%;
-    max-width: 1200px; 
+    max-width: 100%; 
     background-image: url('../images/jackalope-west-02HBQ2w_yak-unsplash.jpg'); 
     background-size: cover;
     background-position: center;
@@ -117,14 +133,16 @@ h1 {
 }
 
 article {
-    position: relatives;
+    position: relative;
     top: 70%;
 }
 
 /* Image inside the article floats to the right of the p paragraph */
 article img {
-    max-width: 100%;
-    height: auto; 
+    max-width: 700px;
+    height: auto;
+    margin-top: 100px;
+    padding: 50px; 
 }
  
 .welcome-text{
@@ -135,6 +153,12 @@ article img {
 
 }
 
+.welcome-text h4, p{
+    color: purple;
+    font-display: bold;
+
+}
+
 footer a img {
     width: 30px; 
     height: auto;
@@ -142,8 +166,37 @@ footer a img {
 }
 
 
-section.img img {
-    display: inline-block;
-    margin-bottom: 20px;
+.adventures {
+    padding: 50px ;
+    text-align: center;
 }
+
+.adventures h2 {
+    margin-bottom: 20px;
+    padding-right: 500px;
+}
+
+.adventures-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap; /* Prevent wrapping of figures */
+}
+
+.adventures-content figure {
+    margin: 10px;
+    text-align: center;
+}
+
+.adventures-content img {
+    width: 300px; /* Make images fill the figure container */
+    height: 200px;
+    border-radius: 10px;
+}
+
+.adventures-content figcaption {
+    margin-top: 10px;
+    color: var(--text-color);
+}
+
 
