@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+Import Google Fonts
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
 :root {
@@ -48,7 +49,7 @@ nav ul li a{
 .logo img{
     height: 100px;
     width: 100px;
-}s
+}
 
 
 
@@ -123,7 +124,7 @@ div.hero {
 }
 
 /* Positioning the h1 heading and article absolutely */
-h1 {
+/*h1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -136,8 +137,7 @@ article {
     top: 70%;
 }
 
-/*Image inside the article floats to the right of the p paragraph*/
-
+/* Image inside the article floats to the right of the p paragraph 
 article img {
     max-width: 700px;
     height: auto;
@@ -180,7 +180,7 @@ footer a img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap; /* Prevent wrapping of figures*/ 
+    flex-wrap: nowrap; /* Prevent wrapping of figures 
 }
 
 .adventures-content figure {
@@ -189,7 +189,7 @@ footer a img {
 }
 
 .adventures-content img {
-    width: 300px; /* Make images fill the figure container*/ 
+    width: 300px; /* Make images fill the figure container 
     height: 200px;
     border-radius: 10px;
 }
@@ -197,4 +197,78 @@ footer a img {
 .adventures-content figcaption {
     margin-top: 10px;
     color: var(--text-color);
-}
+}*/
+
+
+
+        /* Add specific styles for Contact Us page */
+        .employee-profiles {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .employee-profiles .employee {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .employee-profiles .employee img {
+            width: 200px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .employee-profiles .employee p {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        .contact-form {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .contact-form form {
+            display: inline-block;
+            text-align: left;
+        }
+
+        .contact-form form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .contact-form form input[type="text"],
+        .contact-form form input[type="email"],
+        .contact-form form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form form input[type="radio"],
+        .contact-form form input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        .contact-form form button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form form button:hover {
+            background-color: #0056b3;
+        }
+   
+
+
