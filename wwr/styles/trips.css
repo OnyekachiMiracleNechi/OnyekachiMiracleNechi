@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px;
+
+    justify-items: center;
+    align-self: center;
+    align-content: center;
+    background-color: blue;
+    align-items: center;
+    padding: 10px;
+    
+    
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    
+    
+}
+
+nav ul li{
+
+    margin: 30px;
+    padding: 40px;
+    list-style: none;
+    
+    
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+
+
+
